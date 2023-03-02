@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    background: #22252c;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 10px;
+    background: #1c1c24;
+}
+
+nav .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #71dfdc;
+}
+
+nav .right img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+nav .right h3 {
+    font-size: 1.5em;
+}
+
+nav h4 {
+    color: #deebf8;
+    font-weight: 600;
+}
+
+main {
+    padding: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    color: #fff;
+    background-image: url('./img/logo192.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+main .title {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+main .list li {
+    margin-bottom: 15px;
+    color: #deebf8;
+}
+
+main .list li::marker {
+    font-size: 1.5rem;
+    color: #71dfdc;
+}
