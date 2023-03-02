@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100vw;
+    background-color: #1e1f24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 30px;
+    width: 300px;
+    background: #17181d;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 30px;
+    box-shadow: 10px 0 20px #000;
+}
+
+.info .img {
+    position: relative;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.info .body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info .body .buttons {
+    margin-top: 20px;
+}
+
+.info .body .buttons button {
+    font-family: sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 25px;
+}
+
+.info .body .buttons button:hover {
+    box-shadow: 10px 0 20px #000;
+}
+
+.info .body .buttons .email {
+    margin-right: 15px;
+}
+
+.info .body .buttons .linkdin {
+    background: #557dd5;
+    color: #fff;
+}
+
+.about, .interests {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    padding: 10px 40px;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(128, 128, 128);
+    background: #141318;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer i {
+    font-size: 1.4em;
+}
